@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zoo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="zoo.html"><img src="logo.jpg" alt="" width="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Ana sayfa</a></li>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">Kurslar</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Iletişim</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+    </header>    
+    <div class="text-box">
+        <h1>Merhaba Dünya</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+             elit. Deserunt ullam corrupti sint, exercitationem 
+             dignissimos harum iure eius magni vero eos numquam
+              pariatur est qui ad quidem ratione voluptates
+               sunt dolores!
+            </p>
+            <a href="" class="hero-btn">Daha fazlası için dokun</a>
+    </div>
+
+    <section class="course">
+        <h1>Buralar hep dutluktu Sonradan İmara açıldı...</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur
+             adipisicing elit. Eveniet alias commodi
+              veniam sit non odit eos architecto,
+               suscipit quis iusto? Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit. Odio delectus
+                 placeat distinctio enim harum atque non officia
+                  totam voluptates architecto ratione voluptas culpa,
+                   dolorum, nisi eius nam labore perspiciatis sunt.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Başlangıç</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Aliquam deserunt
+                     voluptate, iure quos deleniti
+                     numquam laborum molestiae quis
+                     quidem maiores.</p>
+            </div>
+            <div class="course-col">
+                <h3>Orta</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Aliquam deserunt
+                     voluptate, iure quos deleniti
+                     numquam laborum molestiae quis
+                     quidem maiores.</p>
+            </div>
+            <div class="course-col">
+                <h3>İleri</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Aliquam deserunt
+                     voluptate, iure quos deleniti
+                     numquam laborum molestiae quis
+                     quidem maiores.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Her Masada Varız</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur
+             adipisicing elit. Reprehenderit repellendus
+             nesciunt dicta incidunt explicabo corrupti,
+             quas earum dignissimos eum adipisci illo
+             neque, fuga ea tempore error temporibus
+             quidem fugiat aperiam veritatis corporis.
+             Obcaecati dicta qui sint facilis odit eligendi
+             corrupti incidunt excepturi quae, cum labore veniam
+             dolores rerum tempore voluptates. </p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="arkaplan1.jpg" alt="">
+                <div class="layer">
+                    <h3>Erzurum</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="arkaplan1.jpg" alt="">
+                <div class="layer">
+                    <h3>İstanbul</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="arkaplan1.jpg" alt="">
+                <div class="layer">
+                    <h3>İzmir</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById('navLinks')
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
